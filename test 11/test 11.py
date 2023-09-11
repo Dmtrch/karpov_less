@@ -25,5 +25,6 @@ def extend_matches(pairs: List[Tuple[int, int]]) -> List[Tuple[int, int]]:
 
     return pairs
 
+
 a = extend_matches([(1, 2), (2, 3)])
 print(a)
